@@ -1,0 +1,72 @@
+﻿Hoplite 配方总表（中文，纯文本，非Markdown）
+说明：当前加载=是 表示运行时会尝试加载；legendary(archive) 表示 src/main/resources/recipe/legendary/old 目录中的传奇归档配方，不作为独立项目。
+
+分类                   配方ID                         当前加载               形状 / 材料映射
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+combat               agony                        是                   H ,FWF, N  | H=PLAYER_HEAD|exact; F=BLAZE_POWDER; W=POTION|exact; N=NETHER_WART
+combat               axolotl_boots                是                   A ,XBX, F  | A=AXOLOTL_BUCKET; X=TROPICAL_FISH; B=DIAMOND_BOOTS|exact; F=PINK_PETALS
+combat               bandit_leggings              是                   M ,GLG, M  | M=MELON_SLICE; G=GOLD_INGOT; L=IRON_LEGGINGS|exact
+combat               barbed_rod                   是                    S, SL,SFL | S=STICK; L=STRING; F=FLINT
+combat               blazing_crossbow             是                  FMF,PCP,FMF | F=FIRE_CHARGE; M=MAGMA_CREAM; P=BLAZE_POWDER; C=CROSSBOW|exact
+combat               cactus_chestplate            是                  CCC,CAC,CCC | C=CACTUS; A=IRON_CHESTPLATE|exact
+combat               cowboy_boots                 是                  CHC,HBH,CHC | C=CHAIN; H=HAY_BLOCK; B=LEATHER_BOOTS|exact
+combat               crystallization_shard        是                   H ,APA, A  | H=PLAYER_HEAD|exact; A=AMETHYST_SHARD; P=POTION|exact
+combat               golden_head                  是                  GGG,GHG,GGG | G=GOLD_INGOT; H=PLAYER_HEAD|exact
+combat               light_netherite_sword        是                   N ,OSO, B  | N=NETHERITE_SCRAP; O=OBSIDIAN; S=DIAMOND_SWORD|exact; B=BLAZE_ROD
+combat               mace                         是                   D , S , S  | D=DIAMOND_SWORD|exact; S=STICK
+combat               panacea                      是                  TPT,LHL,TPT | T=RED_TULIP; P=POTION|exact; L=OAK_LOG; H=PLAYER_HEAD|exact
+combat               shortbow                     是                  CCC,CBC,CCC | C=COPPER_INGOT; B=BOW|exact
+combat               shortsword                   是                  CCC,CSC,CCC | C=COPPER_INGOT; S=IRON_SWORD|exact
+combat               skeleton_leggings            是                  BBB,BLB,B B | B=BONE; L=IRON_LEGGINGS|exact
+combat               totem_of_undying             是                   G ,GTG, G  | G=GOLD_INGOT; T=global:totem_core
+combat               trident                      是                   PP, DP,D   | P=PRISMARINE_SHARD; D=DIAMOND
+combat               very_suspicious_stew         是                  MSH, B ,    | M=RED_MUSHROOM; S=BROWN_MUSHROOM; H=PLAYER_HEAD|exact; B=BOWL
+legendary            beehive_blaster              是                   H ,CBC, G  | H=minecraft:bee_nest; B=minecraft:bow; C=minecraft:honeycomb; G=minecraft:gunpowder
+legendary            cloud_sword                  是                  FCF,FSF,FGF | F=minecraft:feather; C=minecraft:cake; S=minecraft:diamond_sword; G=minecraft:golden_carrot
+legendary            corrupted_crossbow           是                  FW ,DCD, WF | F=minecraft:fermented_spider_eye; W=minecraft:nether_wart; D=minecraft:diamond; C=minecraft:crossbow
+legendary            crimson_chainsword           是                  RPR,RSR,DGD | R=minecraft:rail; P=minecraft:piglin_head; S=minecraft:diamond_sword; D=minecraft:diamond; G=minecraft:enchanted_golden_apple
+legendary            dragon_katana                是                   E ,DSD, G  | E=minecraft:ender_pearl; D=minecraft:diamond; G=minecraft:dragon_egg; S=minecraft:diamond_sword
+legendary            enderbow                     是                   E ,DBD, C  | E=minecraft:ender_eye; D=minecraft:diamond; B=minecraft:bow; C=minecraft:clock
+legendary            excalibur                    是                  FNF,ISI,FBF | F=minecraft:campfire; N=minecraft:enchanted_golden_apple; I=minecraft:iron_block; S=minecraft:diamond_sword; B=minecraft:blaze_rod
+legendary            gerald_the_sniffer           是                  DMD,MXM,DMD | M=minecraft:mossy_cobblestone; D=minecraft:diamond; X=minecraft:music_disc_13
+legendary            horn_of_winter               是                   H ,DSD, P  | H=minecraft:diamond_horse_armor; D=minecraft:diamond; S=minecraft:saddle; P=minecraft:powder_snow_bucket
+legendary            kim_the_transmuter           是                  PAS,CHB,LLL | P=minecraft:diamond_pickaxe; A=minecraft:diamond_axe; S=minecraft:diamond_shovel; C=minecraft:cauldron; H=utility:portable_villager; B=minecraft:brewing_stand; L=minecraft:bookshelf
+legendary            mjolnir                      是                   C , A , G  | C=minecraft:chiseled_tuff; A=minecraft:diamond_axe; G=minecraft:enchanted_golden_apple
+legendary            poseidon_trident             是                  SRS,DTD,SWS | S=minecraft:seagrass; R=minecraft:nautilus_shell; W=minecraft:water_bucket; D=minecraft:diamond; T=minecraft:trident
+legendary            sceptre_of_arachne           是                   DS,CTD,MC  | D=minecraft:diamond; S=global:spider_silk_sac; C=minecraft:cobweb; T=minecraft:trident; M=minecraft:brown_mushroom
+legendary            sculkweavers_lantern         是                   DL,SFD,WG  | D=minecraft:diamond; L=minecraft:soul_lantern; S=minecraft:sculk_sensor; F=minecraft:fishing_rod; W=minecraft:sculk_shrieker; G=minecraft:gunpowder
+legendary            shrink_ray                   是                  PRP,ADA,ADA | P=minecraft:prismarine_shard; R=minecraft:redstone_torch; A=minecraft:amethyst_shard; D=minecraft:diamond
+legendary            vampire_sabre                是                   V ,BSB,GRG | V=global:vampire_tooth; B=minecraft:bone; S=minecraft:diamond_sword; G=minecraft:gold_ingot; R=minecraft:redstone
+legendary            villager_wand                是                  PLP,EBE, B  | P=minecraft:potion; B=minecraft:bone; E=minecraft:emerald_block; L=minecraft:bell
+legendary            war_pick                     是                  RPR,RDR,RTR | R=minecraft:redstone_block; D=minecraft:diamond_pickaxe; P=minecraft:player_head; T=minecraft:tnt
+legendary            wither_sickles               是                   W ,HSH, S  | W=minecraft:wither_skeleton_skull; H=minecraft:diamond_hoe; S=minecraft:soul_sand
+legendary(archive)   chrono_sword                 否(legendary归档)      E E,CDC, E E | E=minecraft:ender_pearl; C=minecraft:clock; D=minecraft:diamond_sword
+legendary(archive)   eagle_eye_bow                否(legendary归档)      R G , D B,  R  | R=minecraft:rabbit_foot; G=minecraft:glowstone_dust; D=minecraft:diamond; B=minecraft:bow
+legendary(archive)   emerald_blade                否(legendary归档)      G ,EBE, S  | G=minecraft:golden_carrot; E=minecraft:emerald_block; B=minecraft:bell; S=minecraft:diamond_sword
+legendary(archive)   freezing_chakram             否(legendary归档)      A A, I I, H H | A=minecraft:powder_snow_bucket; I=minecraft:amethyst_shard; H=minecraft:iron_hoe
+legendary(archive)   golem_hammer                 否(legendary归档)      L D ,IDI, B B | L=minecraft:lodestone; D=minecraft:diamond; I=minecraft:iron_block; B=minecraft:blaze_rod
+legendary(archive)   gruntilda                    否(legendary归档)      N B , D D,  P  | N=minecraft:nether_wart; B=minecraft:blaze_rod; D=minecraft:diamond; P=minecraft:end_portal_frame
+legendary(archive)   guardian_cannon              否(legendary归档)     PGP,DDD, S S | P=minecraft:prismarine_shard; G=minecraft:gunpowder; D=minecraft:diamond; S=minecraft:sponge
+legendary(archive)   harpoon_launcher             否(legendary归档)     LRR, RFR,  T  | L=minecraft:lead; R=minecraft:redstone_block; F=minecraft:fishing_rod; T=minecraft:trident
+legendary(archive)   headhunter_chestpiece        否(legendary归档)      P W , I N,  D  | P=minecraft:piglin_head; W=minecraft:weeping_vines; I=minecraft:iron_block; N=minecraft:netherite_ingot; D=minecraft:diamond_chestplate
+legendary(archive)   hypnosis_staff               否(legendary归档)       T , R R,  T  | T=minecraft:totem_of_undying; R=minecraft:blaze_rod
+legendary(archive)   magma_cannon                 否(legendary归档)      M M,DTD, M M | M=minecraft:magma_block; D=minecraft:diamond; T=minecraft:tnt
+legendary(archive)   midas_sword                  否(legendary归档)     QEE, D G,    | Q=minecraft:quartz; E=minecraft:enchanted_golden_apple; G=minecraft:golden_apple; D=minecraft:diamond_sword
+legendary(archive)   reapers_scythe               否(legendary归档)     BBB,WHB,DB  | B=minecraft:bone; W=minecraft:wither_skeleton_skull; H=minecraft:player_head; D=minecraft:diamond_hoe
+legendary(archive)   shadow_blade                 否(legendary归档)     DBD,OSO,B B | D=minecraft:music_disc_5; O=minecraft:obsidian; S=minecraft:diamond_sword; B=minecraft:black_candle
+legendary(archive)   sonic_crossbow               否(legendary归档)     DDD,ECZ,F Z | D=minecraft:music_disc_5; E=minecraft:echo_shard; C=minecraft:crossbow; Z=minecraft:diamond; F=minecraft:firework_star
+utility              ares_blessing                是                  RRR,RHR,RRR | R=REDSTONE; H=PLAYER_HEAD|exact
+utility              auto_smelters_pickaxe        是                  III,CSC, S  | I=IRON_INGOT; C=COAL; S=STICK
+utility              bundle                       是                   L ,LCL, L  | L=LEATHER; C=CHEST
+utility              bundled_arrows               是                  FFF,SSS,WWW | F=FLINT; S=STICK; W=FEATHER; result-count=20
+utility              ender_pack                   是                   E ,OCO, E  | E=END_STONE; O=ENDER_EYE; C=COMPASS
+utility              explosive_pickaxe            是                  RTR,RPR,RAR | R=REDSTONE_BLOCK; T=TNT; P=DIAMOND_PICKAXE|exact; A=AMETHYST_SHARD
+utility              light_anvil                  是                  III, B ,III | I=IRON_INGOT; B=IRON_BLOCK
+utility              lumberjacks_axe              是                  IIF,IS , S  | I=IRON_INGOT; F=FLINT; S=STICK
+utility              nether_reactor_core          是                  BCB,BGB,BCB | B=BLUE_ICE; C=BLACKSTONE; G=GUNPOWDER
+utility              obsidian_maker               是                  LW ,   ,    | L=LAVA_BUCKET; W=WATER_BUCKET
+utility              portable_villager            是                  WEW,WBW,WCW | W=WHEAT; E=EMERALD; B=BOOKSHELF; C=COMPOSTER
+utility              revival_star                 是                   A ,DHD, C  | A=ENCHANTED_GOLDEN_APPLE; D=DIAMOND; H=PLAYER_HEAD|exact; C=CLOCK
+utility              super_smelters_pickaxe       是                  DID,CSC, S  | D=DIAMOND; I=IRON_INGOT; C=COAL; S=STICK
+utility              tim_the_enchanter            是                  LLL,PET,BBB | L=LAPIS_BLOCK; P=PRISMARINE_SHARD; E=ENCHANTING_TABLE; T=GOLDEN_CARROT; B=BOOKSHELF
+utility              tracker_pack                 是                   B ,BCB, B  | B=BONE; C=COMPASS
